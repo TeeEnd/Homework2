@@ -1,0 +1,87 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+  table{
+      background-position: center;
+      background-color: rgb(245, 115, 115);
+  }
+  body{
+      background-color: bisque;
+  }
+  .button {
+      color: #e2cceb;
+    background-color: #7e1961;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 8em;
+    font-size: small;
+    font-weight: 200;
+  }
+  .delivery
+  {
+      background-color:#7e1961;
+      color:#e2cceb;
+  
+  }
+  .area
+  {
+      background-color: #f5e97e;
+      color: rgb(49, 16, 77);
+      font-weight: 700;
+      font-family: 'Lucida Sans';
+  }
+  .naslov
+  {
+      text-shadow:0px 0px 13px #f710ff;
+      padding: 10px 0;
+      background-color: #7e1961;
+  
+  }
+  .basic
+  {
+      color: #e2cceb;
+      background: #7e1961;
+      text-shadow: #f7b4c8 0px 0px 10px, #f7b4c8 0px 0px 15px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 75px, 2px 2px 7px rgba(49, 13, 2, 0);
+      
+  }
+  .type
+  {
+    color: #390e4b;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-style: italic;
+    font-stretch: expanded;
+  }
+  form select option.s
+  {
+    font-style: italic;
+  }
+  select
+  {
+     font-weight: 600;
+     background-color: #fff787;
+     color: #7e09b1;
+  }
+  form select option:hover
+  {
+      background-color: #390e4b;
+  }
+  .write
+  {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+  }
+  label input.lbl
+  {
+    background-color: #f5e97e;
+    color: #7e09b1;
+    font-weight: 700;
+    font-family: 'Lucida Sans';
+  }
+  

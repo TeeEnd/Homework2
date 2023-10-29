@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Domashno Dva</title>
+    <link rel="stylesheet" type="text/css" href="HW2.css">
+</head>
+<body>
+    <table class="center" border="1" >
+        <tr>
+        <th class="naslov" align="center" colspan="2"><b>Pizza Shop 2.0</b></th>
+        </tr>
+
+        <tr>
+            <td class="basic">Name</td>
+            <td class="write"> <label> <input class="lbl" type="text" name="name" size="15" maxlength="30"/></label></td>
+        </tr>
+
+        <tr>
+            <td class="basic">Pizza Topping</td>
+            <td>
+                <form> 
+                    <input id="supreme" type="radio" name="topping" value="s"><label for="supreme" >Supreme</label><br>
+                    <input id="vegetarian" type="radio" name="topping" value="v"><label for="vegetarian">Vegetarian</label><br>
+                    <input id="hawaiian" type="radio" name="topping"value="h"><label for="hawaiian">Hawaiian</label><br>
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="basic">
+                Pizza Sauce
+            </td>
+            <td >
+                <form class="option">
+                    <select name="sauce">
+                        <option value="tomato"class="s">Tomato</option>
+                        <option value="spicy" class="s">Spicy </option>
+                        <option value="bbq"class="s">Sweet BBQ </option>
+                        <option value="mustard"class="s">Mustard & Onion </option>
+                        <option value="hot" class="s">Hot </option>
+                        <option value="parmesan"class="s">Parmesan Ranch Dipping Sauce</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="basic">
+                Extras 
+            </td>
+            <td>
+                <form class="type">
+                    <input type="checkbox" name="extras" value="cheese"/> Extra Cheese  
+                    <input type="checkbox" name="extras" value="gluten"/> Free Base
+                
+
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+                <th class="delivery" align="left" colspan="2">Delivery instructions:<br>
+                <form>
+                    
+                <textarea class="area" name="delivery" cols="46" rows="4" ></textarea>
+            </form>
+        </th>
+        </tr>
+
+        <tr>
+               <th align="left" colspan="2">
+                <form>
+             
+                    <input class="button" type="submit" name="order" value="Send my Order"/>
+            </form>
+        </th> 
+           
+        </tr>
+    </table>
+   
+</body>
+</html>
